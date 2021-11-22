@@ -1,6 +1,6 @@
 # Job_Req-Parser
 
-Job_Req-Parser permet de parser un document .csv et d'automatiquement charger les informations de `DescriptionPost` et `DescriptionProfil` associées à chaque `ìd`
+Job_Req-Parser permet de parser un document .csv et d'automatiquement charger les informations de `DescriptionPost` et `DescriptionProfil` associées à chaque `id`
 
 1. [Lancement du code](#lancement-du-code)
 2. [Lancement de l'environement virtuel](#lancement-de-l'environement-virtuel)
