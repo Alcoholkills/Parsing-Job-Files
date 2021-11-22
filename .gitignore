@@ -1,0 +1,11 @@
+*.csv
+*.json
+*.dat
+*.zip
+"Job Archive"
+Archive
+*.txt
+test.py
+venv
+find_no_br.py
+__pycache__
