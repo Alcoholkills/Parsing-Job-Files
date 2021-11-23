@@ -1,6 +1,6 @@
 # Job_Req-Parser
 
-Job_Req-Parser permet de parser un document .csv et d'automatiquement charger les informations de `DescriptionPost` et `DescriptionProfil` associées à chaque `ìd`
+Job_Req-Parser permet de parser un document .csv et d'automatiquement charger les informations de `DescriptionPost` et `DescriptionProfil` associées à chaque `id`
 
 1. [Lancement du code](#lancement-du-code)
 2. [Lancement de l'environement virtuel](#lancement-de-l'environement-virtuel)
@@ -25,7 +25,7 @@ Dans un terminal, dans le dossier où est situé `Job_Req-Parser.py`, taper :
 ## Quelques informations supplémentaires
 
 `bodge.py` a été utilisé lorsque j'ai rencontré une erreur pendant le "parsing" du fichier, et qu'il était plus rapide de le faire à la main plutôt que de corriger cette errur.
-Dans ce cas là, j'ai séparer le fichier initial en 3 fichiers :
+Dans ce cas là, j'ai séparé le fichier initial en 3 fichiers :
 
 - la ligne bloquante + toutes les informations de l'id correspondant
 - toutes les lignes avant l'id bloquant
