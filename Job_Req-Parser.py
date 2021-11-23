@@ -1,5 +1,5 @@
 from tkinter import filedialog
-import re, tkinter, os, sys, traceback, json
+import re, tkinter, os, sys, traceback
 
 def get_file_path():
     """
@@ -194,12 +194,9 @@ def loop_file():
         print(sys.exc_info()[1])
         print(traceback.format_exc())
         
-"""
-Permet d'effacer tous les fichiers créés *dans le dossier courant*
-"""
 def clear_files():
     """
-    Permet de nettoyer le dossier en cours
+    Permet d'effacer tous les fichiers créés *dans le dossier courant*
     """
     for file in os.listdir(os.getcwd()):
         if re.compile("^[0-9]+.txt").match(file):
@@ -211,10 +208,10 @@ def main():
     Utiliser `h` pour affichier l'aide.
     """
     help_string = f"\
-[h] to display help\n\
-[l] to launch analysis\n\
-[c] to clear current directory : \n\t`{os.getcwd()}`\n\
-anything else to terminate program"
+    [h] to display help\n\
+    [l] to launch analysis\n\
+    [c] to clear current directory : \n\t`{os.getcwd()}`\n\
+    anything else to terminate program"
     print(help_string)
     while True:
         n = input("[h]elp, [l]oop files or [c]lear files : ")
