@@ -210,7 +210,7 @@ def main():
     help_string = f"\
     [h] to display help\n\
     [l] to launch analysis\n\
-    [c] to clear current directory : \n\t`{os.getcwd()}`\n\
+    [c] to clear current directory from created files: \n\t`{os.getcwd()}`\n\
     anything else to terminate program"
     print(help_string)
     while True:
